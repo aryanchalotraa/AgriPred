@@ -27,18 +27,21 @@ AgriPred/
 
 🔹 How to Run
 
-Open Command Prompt and go to the project folder
-cd D:\DoDev\AgriPred
+git clone https://github.com/aryanchalotraa/AgriPred.git
 
 Install required libraries
+
 pip install -r requirements.txt
 
 Train the crop prediction model (run once)
+
 python train_crop_model.py
 
 Start the application
+
 streamlit run app.py
 
 Use the browser interface to predict crops or detect plant disease
 
 Press CTRL + C in terminal to stop the app
+
